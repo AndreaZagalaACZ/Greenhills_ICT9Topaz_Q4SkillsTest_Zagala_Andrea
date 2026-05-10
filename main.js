@@ -12,6 +12,7 @@ function loginAuthentication() {
 
     if (username === 'ilovepink123' && password === '514986878970') {
       window.alert('Welcome back!');
+      window.location.replace('notebooks.html');
       return;
     }
 
